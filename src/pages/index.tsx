@@ -11,13 +11,11 @@ import Content from "../../components/Dashbord/content"
 export default function Home() {
 	return (
 		<>
+		 <div className="h-screen text-white bg-gradient-to-b from-slate-900 via-gray-800 to-blue-900"> 
 		<Navigation />
 		<Stage/>
-		 <Content/>
-		<Howitworks />
-		<Colateral />
-		<Benefits />
-		<Cards />
+
+		</div>
 	
 	</>
 	);
