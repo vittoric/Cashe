@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212.6999969482422 96.99999999999994" width="638.0999908447266" height="290.99999999999983">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g transform="translate(10 10) rotate(0 96.3499984741211 38.49999999999997)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="61.59999999999996px" fill="#FFFFFF" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">CASHE</text></g></svg>

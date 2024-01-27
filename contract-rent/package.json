@@ -1,0 +1,19 @@
+{
+  "name": "contract-rent",
+  "version": "1.0.0",
+  "description": "rentEZ smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dolvin17",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

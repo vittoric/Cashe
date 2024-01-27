@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/Karol/Desktop/rentez_dapp/web3modal-quickstart/contract-rent/contracts/RentezContract.sol": {
+      "lastModificationDate": 1700345049208,
+      "contentHash": "7aed18ee32e1d812c63452567e819c0f",
+      "sourceName": "contracts/RentezContract.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RentContract"
+      ]
+    }
+  }
+}
