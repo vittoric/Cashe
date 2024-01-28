@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Garantee() {
-  return (
+return (
 	<>
 		<div className="flex pt-4 flex-col-reverse w-full max-w-[22rem] mt-1">
 			<div className="mx-3 text-center">
@@ -21,5 +21,5 @@ export default function Garantee() {
 		</div>
 		</div>
 	</>
-  );
+);
 }
