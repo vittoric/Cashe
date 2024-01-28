@@ -46,7 +46,7 @@ export default function Navigation() {
     ${isOpen ? "flex" : "hidden"}`}
 >
 	<a href="../team" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">
-    Mision
+    Equipo
   </a>
   
   <a href="../Cards" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">

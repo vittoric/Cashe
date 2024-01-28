@@ -6,8 +6,8 @@ export default function Lau() {
 	<div >
       <div className="flex pt-4 flex-col-reverse w-full max-w-[440rem] mt-8   gap-8">
         <div className="mx-3 text-xl text-center ">
-          <p className="font-bold text-center"> Karol Huertas</p>
-          Frontend Web3, Community Manager, Developer lead
+          <p className="font-bold text-center"> Lautaro J. Sarni</p>
+          Lawyer, Pitch Master, Developer
         </div>
         <div className="flex justify-center">
           <Image

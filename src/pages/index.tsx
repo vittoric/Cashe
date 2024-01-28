@@ -15,7 +15,7 @@ export default function Home() {
 		<div className="h-screen text-white bg-gradient-to-r from-blue-800 to-purple-800"> 
 		<Navigation />
 		<Stage/>
-		<Cards/>
+	 
 		 
 		</div>
 	</>
