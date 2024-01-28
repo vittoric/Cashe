@@ -51,10 +51,10 @@ export default function Navigation() {
     Mision
   </a>
   
-  <a href="../quienes-somos" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">
+  <a href="../Cards" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">
     Coleccion de peliculas
   </a>
-  <a href="../quienes-somos" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">
+  <a href="../Cards2" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">
     Coleccion de NFTs
   </a>
   <a href="../contacto" className="block w-full py-2 text-lg font-medium text-center hover:text-blue-500">

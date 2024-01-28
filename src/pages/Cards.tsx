@@ -1,13 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GiMagnifyingGlass } from "react-icons/gi";
+import { GiStopwatch } from "react-icons/gi";
 import { FcRating } from "react-icons/fc";
-import { BiHappyBeaming } from "react-icons/bi";
-import { GiBreakingChain } from "react-icons/gi";
-import { RiCopperCoinFill } from "react-icons/ri";
-
-
-
+import { GiDramaMasks } from "react-icons/gi";
+import { GiDirectorChair } from "react-icons/gi";
+import Navigation from "../../components/Navigation/Navigation";
 
 
 
@@ -15,68 +13,86 @@ import { RiCopperCoinFill } from "react-icons/ri";
 export default function Cards() {
   return (
     <>
+	 <Navigation />
+      <div className="relative bg-gradient-to-r from-blue-800 to-purple-800"> 
       <div className="flex flex-col items-center justify-center py-8 pt-24 pb-8 text-gray-900 mt-36">
         <h1 className="text-3xl font-bold tracking-widest">
           AVAILABLE FOR RENT
         </h1>
         <div className="flex flex-row flex-wrap items-center justify-center w-full gap-12 text-gray-600">
-          <ProductCards
-            name="Cloud"
-            imageURL="/open1.png"
+		<div className="bg-white rounded-2xl" >
+		  <ProductCards
+            name="Roach trip"
+            imageURL="/roachtrip.png"
             href="https://opensea.io/karolhuertas.eth"
-            precios="2$ VOTTUN"
-            info="See more like this"
-            duration="ERC-721"
-            website="/"
-            genero="Polygon"
-            director="Ari Aster "
-          />
-            <ProductCards
-            name="Punkbits"
-            imageURL="/open2.png"
-            href="https://opensea.io/karolhuertas.eth"
-            precios="3$ VOTTUN"
-            info="See more like this"
-            duration="ERC-721"
-            website="/"
-            genero="Polygon"
-            director="Kelly Reichardt"
-          />
-            <ProductCards
-            name="Fractal"
-            imageURL="/open5.png"
-            href="https://opensea.io/karolhuertas.eth"
+            rating="8.3"
             precios="1$ VOTTUN"
             info="See more like this"
-            duration="ERC-721"
+            duration="120 min"
             website="/"
-            genero="Rootstock"
+            genero="Tragedia"
+            director="Ari Aster "
+          />
+		  </div>
+		  <div className="bg-white rounded-2xl" >
+            <ProductCards
+            name="Scandalous"
+            imageURL="/imagen2.png"
+            href="https://opensea.io/karolhuertas.eth"
+            rating="9.3"
+            precios="4$ VOTTUN"
+            info="See more like this"
+            duration="160 min"
+            website="/"
+            genero="Tragedia"
+            director="Kelly Reichardt"
+          />
+		  </div>
+		  <div className="bg-white rounded-2xl" >
+            <ProductCards
+            name="Goodbye Horses"
+            imageURL="/horses.png"
+            href="https://opensea.io/karolhuertas.eth"
+            rating="7.4"
+            precios="2$ VOTTUN"
+            info="See more like this"
+            duration="180 min"
+            website="/"
+            genero="Drama"
             director="Robert Eggers "
 
           />
+		  </div>
+		  <div className="bg-white rounded-2xl" >
             <ProductCards
-            name="Breinbit"
-            imageURL="/open3.png"
+            name="Wine club"
+            imageURL="/imagen7.png"
             href="https://opensea.io/karolhuertas.eth"
-            precios="2$ VOTTUN"
+            rating="4.2"
+            precios="3$ VOTTUN"
             info="See more like this"
-            duration="ERC-721"
+            duration="155 min"
             website="/"
-            genero="Polygon"
+            genero="Terror"
             director="Sean Baker "
           />
+		  </div>
+		  <div className="bg-white rounded-2xl" >
             <ProductCards
-            name="Moca"
-            imageURL="/open7.png"
+            name="Solbrud"
+            imageURL="/imagen6.png"
             href="https://opensea.io/karolhuertas.eth"
-            precios="1 $ VOTTUN"
+            rating="6.9"
+            precios="1$ VOTTUN"
             info="See more like this"
-            duration="ERC-721"
+            duration="217 min"
             website="/"
-            genero="Rootstock"
+            genero="Musical"
             director="Daniel Kwan "
           />
+		  </div>
         </div>
+		 </div>
       </div>
     </>
   );
@@ -92,7 +108,6 @@ function ProductCards({
   website,
   genero,
   director,
-  propietario,
 }: {
   name: string;
   imageURL: string;
@@ -104,14 +119,13 @@ function ProductCards({
   website: string;
   genero: string;
   director: string;
-  propietario: string;
 
 }) {
   return (
-    <article className="flex flex-col w-full max-w-[16rem] mt-8 hover:skew-y-3 shadow-2xl transition border-2 rounded-2xl overflow-hidden border-black hover:shadow-m ">
-      <div className="relative w-full h-[16rem]">
+    <article className="flex flex-col w-full max-w-[16rem]  hover:skew-y-3 shadow-2xl transition border-2 rounded-2xl overflow-hidden border-black hover:shadow-m ">
+      <div className="relative w-full h-[16rem] bg-white">
         <Image
-          className="object-contain bg-black border-2 border-black rounded-b-none object-full h-fit w-fill "
+          className="transition-transform bg-black border-2 border-black rounded-b-none object-fit hover:scale-90 h-fit w-fill "
           fill
           src={imageURL}
           alt=""
@@ -123,19 +137,27 @@ function ProductCards({
           <p className="px-3 text-blue-600">{precios}</p>
           <div className="flex items-center gap-3 px-2 mt-4 ">
             {" "}
-            <BiHappyBeaming  size={25} /> {director}
+            <GiDirectorChair size={25} /> {director}
           </div>
           <div className="flex items-center gap-3 px-2 mt-1 ">
             {" "}
-            <RiCopperCoinFill size={25} /> {duration}
+            <GiStopwatch size={25} /> {duration}
           </div>
           <Link
             href={href}
             target="_blank"
             className="flex items-center gap-3 px-2 mb-1 text-gray-900 hover:underline"
           >
-            <GiBreakingChain size={25} />
+            <GiDramaMasks size={25} />
             {genero}
+          </Link>
+          <Link
+            href={href}
+            target="_blank"
+            className="flex items-center gap-3 px-2 pb-4 text-gray-900 hover:underline"
+          >
+            <FcRating size={25} />
+              {rating}
           </Link>
           <div className="scale-150 bg-white">
             <Link
