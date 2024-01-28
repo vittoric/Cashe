@@ -17,7 +17,7 @@ export default function Team() {
 
   return (
     <>
-      <div className="text-white bg-gradient-to-b from-slate-900 via-gray-800 to-blue-900">
+      <div className="text-white bg-gradient-to-r from-blue-800 to-purple-800">
 	  <Navigation />
         <div className="items-center justify-center px-8 ">
           <div className="max-w-screen-xl mx-auto scale-75">
