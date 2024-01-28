@@ -6,7 +6,7 @@ export default function Stage() {
     <div className="grid flex-wrap items-center justify-center grid-cols-2 px-8 sm:pt-36">
       <div className="flex flex-col items-center justify-center">
         <div className="px-24 mt-48 font-mono font-bold text-center skew-x-6 -trangrayslate-y-8 text- text-7xl sm:text-5xl shadow-color-black">
-          Llevando la pirateria hacia un nuevo Puerto
+          Llevando la piratería hacia un nuevo Puerto
         </div>
         <div className="max-w-lg mt-4 ml-12 text-center text-white shadow-color-black sm:text-2xl">
          Nuestro Norte es la integracion de nuevas tecnologias con la propiedad digital

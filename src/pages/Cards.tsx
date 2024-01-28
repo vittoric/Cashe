@@ -15,8 +15,8 @@ export default function Cards() {
     <>
 	 <Navigation />
       <div className="relative bg-gradient-to-r from-blue-800 to-purple-800"> 
-      <div className="flex flex-col items-center justify-center py-8 pt-24 pb-8 text-gray-900 mt-36">
-        <h1 className="text-3xl font-bold tracking-widest">
+      <div className="flex flex-col items-center justify-center py-8 pt-24 pb-8 text-white mt-36">
+        <h1 className="pb-12 text-3xl font-bold tracking-widest animate-pulse" >
           AVAILABLE FOR RENT
         </h1>
         <div className="flex flex-row flex-wrap items-center justify-center w-full gap-12 text-gray-600">
