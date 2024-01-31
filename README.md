@@ -18,8 +18,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page
 auto-updates as you edit the file.
 
 Team:
-Karol Huertas
-Victoria Codreanu
+Karol Huertas <br>
+Victoria Codreanu <br>
+Alex Alanes
 
 
 
